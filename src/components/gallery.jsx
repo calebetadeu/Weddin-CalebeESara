@@ -18,7 +18,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos9.jpg"
+                      href="img/nos/nos10.jpg"
                       title="She Said Yes"
                       data-lightbox-gallery="gallery1"
                     >
@@ -39,7 +39,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos11.jpg"
+                      href="img/nos/nos12.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -60,7 +60,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/johnnywicklow.jpeg"
+                      href="img/nos/nos13.jpg"
                       title="Wicklow Trip"
                       data-lightbox-gallery="gallery1"
                     >
@@ -89,7 +89,7 @@ export class Gallery extends Component {
                         <h4>Viagem Alemanha</h4>
                       </div>
                       <img
-                        src="img/nos/nos15.jpg"
+                        src="img/nos/nos14.jpg"
                         className="img-responsive"
                         alt="Viagem Alemanha"
                       />{" "}
@@ -110,7 +110,7 @@ export class Gallery extends Component {
                         <h4>Comemos muito?</h4>
                       </div>
                       <img
-                        src="img/nos/nos17.jpg"
+                        src="img/nos/nos16.jpg"
                         className="img-responsive"
                         alt="Comemos muito"
                       />{" "}
@@ -131,7 +131,7 @@ export class Gallery extends Component {
                         <h4> Nois dois</h4>
                       </div>
                       <img
-                        src="img/nos/nos2.jpg"
+                        src="img/nos/nos1.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -152,7 +152,7 @@ export class Gallery extends Component {
                         <h4>Travelling to Hollyhead</h4>
                       </div>
                       <img
-                        src="img/nos/nos4.jpg"
+                        src="img/nos/nos3.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
