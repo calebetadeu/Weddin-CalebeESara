@@ -1,89 +1,40 @@
 import React, { Component } from "react";
 
+import './contact.css'
+
 export class Contact extends Component {
+
+
   render() {
+ 
     return (
       <div>
+        
         <div id="contact">
+      
           <div className="container">
+           
             <div className="col-md-8">
+                <img src="images/renovo.png" alt="renovo" />
               <div className="row">
-                <div className="section-title">
-                  <h2>Get In Touch</h2>
-                  <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
-                  </p>
-                </div>
-                <form name="sentMessage" id="contactForm" noValidate>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          id="name"
-                          className="form-control"
-                          placeholder="Name"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          id="email"
-                          className="form-control"
-                          placeholder="Email"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      id="message"
-                      className="form-control"
-                      rows="4"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                    <p className="help-block text-danger"></p>
-                  </div>
-                  <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
-                  </button>
-                </form>
+          
               </div>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
+              
               <div className="contact-item">
-                <h3>Contact Info</h3>
+               
+                <iframe className='renovo-map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15943.745099873126!2d-44.2397944!3d-2.5277062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd8367395f9c58d8d!2sIgreja%20Evang%C3%A9lica%20Renovo!5e0!3m2!1spt-BR!2sbr!4v1630268612558!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            
+              </div>
+              <div className="contact-item">
                 <p>
-                  <span>
-                    <i className="fa fa-map-marker"></i> Address
-                  </span>
-                  {this.props.data ? this.props.data.address : "loading"}
+                  
                 </p>
               </div>
               <div className="contact-item">
                 <p>
-                  <span>
-                    <i className="fa fa-phone"></i> Phone
-                  </span>{" "}
-                  {this.props.data ? this.props.data.phone : "loading"}
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-envelope-o"></i> Email
-                  </span>{" "}
-                  {this.props.data ? this.props.data.email : "loading"}
+                 
                 </p>
               </div>
             </div>
