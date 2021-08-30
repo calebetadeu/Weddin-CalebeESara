@@ -38,6 +38,7 @@ span{
 .timer-clock{
     padding: 40px;
     
+    
 }
 span{
     font-size: 30px;
@@ -56,4 +57,8 @@ h1{
 }
 .containerClock{
     padding: 20px;
+  
+}
+.timer-container{
+    height: 100%;
 }
