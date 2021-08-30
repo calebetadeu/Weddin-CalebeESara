@@ -46,7 +46,14 @@ span{
 h1{
     font-size: 20px;
 }
-
+.containerClock{
+    padding: 30px;
+  
+}
+.timer-container{
+    height: 100%;
+    padding-top: 20px;
+}
 }
 
 h1{
@@ -54,11 +61,4 @@ h1{
      font-weight: normal;
   letter-spacing: .125rem;
   text-transform: uppercase;
-}
-.containerClock{
-    padding: 20px;
-  
-}
-.timer-container{
-    height: 100%;
 }
