@@ -1,0 +1,59 @@
+.timer-container{
+    background-color: #e4dada;
+color: #333;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+
+.containerClock{
+    position: relative;
+   
+    padding:40px ; 
+    border-radius: 10px ;
+    border-color: darkorchid;
+    background-color: rgb(247, 246, 244);
+
+}
+.timer-clock{
+    display: inline-block;
+    padding: 60px;
+  
+    
+}
+small{
+    font-size: large;
+    color: rgb(31, 32, 32);  
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+span{
+    font-size: 50px;
+    color: #7B0828;
+    font-family: 'Dancing Script', cursive;
+}
+@media only screen and (max-width:762px){
+.timer-clock{
+    padding: 40px;
+    
+}
+span{
+    font-size: 30px;
+}
+h1{
+    font-size: 20px;
+}
+
+}
+
+h1{
+    padding-top: 30px;
+     font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+.containerClock{
+    padding: 20px;
+}

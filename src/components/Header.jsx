@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import { Timer } from "./CountDown/Timer";
+
 
 export class Header extends Component {
   render() {
     return (
+     
       <header id="header">
         <div className="intro">
           <div className="overlay">
@@ -20,9 +23,14 @@ export class Header extends Component {
                 </div>
               </div>
             </div>
+          
+
           </div>
-        </div>
+        </div> 
+      <Timer />   
       </header>
+    
+    
     );
   }
 }
