@@ -1,8 +1,12 @@
 .cards {
   padding: 4rem;
   background: #fff;
+ 
 }
-
+span{
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 25px;
+}
 h1 {
   text-align: center;
 }
@@ -12,9 +16,11 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
- 
+}
+@media (max-width:768px){
+
 }
 
 .cards__wrapper {

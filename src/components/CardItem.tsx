@@ -4,15 +4,16 @@ import React from 'react';
 
 type CardProps={
   
-  label:string;
-  src:string;
-  text:string;
-  link:string
+  label?:string;
+  src?:string;
+  text?:string;
+  link?:string;
+  value?:Number | string;
 }
 
-const CardItem = ({link,label,src,text}:CardProps) => {
+const CardItem = ({link,label,src,text,value}:CardProps) => {
   return (
-    <>
+    <div  >
       <li className='cards__item'>
       
         <a className='cards__item__link' href={link}  >
@@ -26,11 +27,19 @@ const CardItem = ({link,label,src,text}:CardProps) => {
            
           </figure>
           <div className='cards__item__info'>
+           
             <h5 className='cards__item__text'>{text}</h5>
+
+            <span>{`${value}`} </span>
+                 
           </div>
         </a>
+     
       </li>
-    </>
+
+    
+    </div>
+      
   );
 }
 
