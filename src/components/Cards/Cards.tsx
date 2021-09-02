@@ -27,7 +27,7 @@ function Cards() {
               label='Lua de mel'
               link="https://nubank.com.br/pagar/5nbfl/GUZLEPo5jA"
               value={ `R$ ${2000} ` }
-            />  <ProgressBar max_value={2000} value={0} />
+            />  <ProgressBar max_value={2000} value={900} />
             </div>
           </ul>
           <ul className='cards__items'>
