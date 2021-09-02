@@ -25,7 +25,7 @@ function Cards() {
               src='images/campos.jpg'
               text='Nos Ajude com a Lua de mel'
               label='Lua de mel'
-              link="https://www.querodecasamento.com.br/lista-de-casamento/calebeesara"
+              link="https://nubank.com.br/pagar/5nbfl/GUZLEPo5jA"
               value={ `R$ ${2000} ` }
             />  <ProgressBar max_value={2000} value={0} />
             </div>

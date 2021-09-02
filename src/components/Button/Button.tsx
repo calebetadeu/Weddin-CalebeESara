@@ -3,12 +3,13 @@ import './Button.scss'
 
 type ButtonProps ={
    label:string
+   src:string
 }
 
-export const Button = ({label}:ButtonProps) => {
+export const Button = ({label,src}:ButtonProps) => {
     return (
-        <div className="button" >
-            {label}
-        </div>
+        <button className="button"  >
+          <a href={src}> {label} </a>  
+        </button>
     )
 }
