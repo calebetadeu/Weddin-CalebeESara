@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { Countdown } from './Countdown';
 
-export const Timer = () => {
-    const [timerDays,setTimerDays]=useState();
-const [timerHours,setTimerHours]=useState()
-const [timerMinutes,setTimerMinutes]=useState()
-const [timerSecond,setTimerSeconds]=useState()
 
-let interval;
+export const Timer = () => {
+const [timerDays,setTimerDays]=useState(0);
+const [timerHours,setTimerHours]=useState(0)
+const [timerMinutes,setTimerMinutes]=useState(0);
+const [timerSecond,setTimerSeconds]=useState(0)
+
+let interval:number
+
 
 const startTimer=()=>{
   const CountdownDate= new Date("Dec 11,2021").getTime();
@@ -17,7 +19,7 @@ const startTimer=()=>{
 
     const distance =CountdownDate - now;
 
-    const days= Math.floor((distance / (24*60*60*1000) ));
+    const days = Math.floor((distance / (24*60*60*1000) ));
 
     const hours= Math.floor((distance % (24*60*60*1000))/ (1000*60*60));
 
