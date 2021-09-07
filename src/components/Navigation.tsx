@@ -21,7 +21,7 @@ export class Navigation extends Component {
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
              C + S
-            </a>{" "}
+            </a>{" "}  <Playsong />
           </div>
 
           <div
@@ -29,7 +29,7 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-             <Playsong />
+           
               <li>
                 <a href="#about" className="page-scroll">
                  Sobre o Casamento

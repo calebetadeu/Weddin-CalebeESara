@@ -5,7 +5,8 @@ export const Playsong = () => {
     return (
      <ReactAudioPlayer  
      src={Song}   
-     autoPlay
+     autoPlay={true}
+     
      
         />
         
