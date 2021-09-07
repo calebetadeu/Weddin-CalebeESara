@@ -37,7 +37,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#features" className="page-scroll">
-             Lista de Present
+             Lista de Presente
                 </a>
               </li>
               <li>
