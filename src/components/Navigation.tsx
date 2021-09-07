@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Playsong } from "./Playsong";
 
 export class Navigation extends Component {
   render() {
@@ -28,7 +29,7 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-             
+             <Playsong />
               <li>
                 <a href="#about" className="page-scroll">
                   Sobre Nosso Casamento
