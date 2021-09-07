@@ -1,15 +1,17 @@
 import React from 'react'
-import ReactAudioPlayer from 'react-audio-player'
+
 import Song from "./songs/song.mp3"
+import Sound from 'react-audio-player'
+
+
+
+
 export const Playsong = () => {
     return (
-     <ReactAudioPlayer  
-     src={Song}   
+     <Sound 
+     src={Song}
      autoPlay={true}
-     
-     
-        />
-        
-       
+     controls={true}
+     />
     )
 }

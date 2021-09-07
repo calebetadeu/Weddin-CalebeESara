@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Playsong } from "./Playsong";
+import  {Playsong}  from "./Playsong";
 
 export class Navigation extends Component {
   render() {
@@ -21,7 +21,7 @@ export class Navigation extends Component {
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
              C + S
-            </a>{" "}  <Playsong />
+            </a>{" "} <Playsong /> 
           </div>
 
           <div
