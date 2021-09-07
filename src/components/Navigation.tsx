@@ -32,7 +32,7 @@ export class Navigation extends Component {
              <Playsong />
               <li>
                 <a href="#about" className="page-scroll">
-                 Sobre o Wedding
+                 Sobre o Casamento
                 </a>
               </li>
               <li>
