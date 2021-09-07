@@ -1,3 +1,5 @@
+
+
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -184,8 +186,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	padding: 0;
-	background: url(../img/nos/saidyes.jpeg) center center no-repeat;
+	padding: 165px;
+	background: url(../images/foto2.jpg) center center no-repeat;
 	background-color: rgb(228, 218, 218);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -194,15 +196,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 @media (max-width:768px){
 	.intro{
-	background: url(../img/nos/intro-main.jpg) center center no-repeat ;
-	background-size: 100%  90%;
-	width: 100%;
-	height: 100%;
+	background: url(../images/foto5.png) center center no-repeat ;
+	width:100%;
+    height: 100%;
 	}
+	.intro .overlay {
+		background-color: none;
 }
-.intro .overlay {
-	background: rgba(0,0,0,0.2);
 }
+
+
+
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
@@ -212,6 +216,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
 .intro h1 span {
 	font-weight: 800;
 	color: #5ca9fb;

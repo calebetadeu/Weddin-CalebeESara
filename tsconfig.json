@@ -21,5 +21,10 @@
   },
   "include": [
     "src"
+  ],
+
+  "typeRoots": [
+    "./types",
+    "./node_modules/@types"
   ]
 }

@@ -4,6 +4,7 @@ import './Button.scss'
 type ButtonProps ={
    label:string
    src:string
+ 
 }
 
 export const Button = ({label,src}:ButtonProps) => {

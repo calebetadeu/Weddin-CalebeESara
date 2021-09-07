@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Rouge+Script&display=swap');
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+.date-main{
+	position: absolute;
+	width: 800.75px;
+	height: 153.86px;
+	padding-top:40rem;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 120px;
+	line-height: 90px;
+	text-align:center;
+	color: #aa9797;
+    
+   fill: none;
+
+}
+
+.sign {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 50%;
+  height: 50%;
+  background-image: radial-gradient(
+    ellipse 100% 35% at 100% 100%,
+    
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+ font-family: 'Rouge Script', cursive;
+  text-transform: uppercase;
+  font-size: 6em;
+  color: #7c2ef8;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #cac0ca,
+    -0.2rem 0.1rem 1rem #ffe8f8, 0.2rem 0.1rem 1rem #6decfd,
+    0 -0.5rem 2rem #d3c3c3, 0 0.5rem 3rem #383030;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #0a060a, 0 0 1.5rem #30282c,
+      -0.2rem 0.1rem 1rem #351327, 0.2rem 0.1rem 1rem #3f3238,
+      0 -0.5rem 2rem #978089, 0 0.5rem 3rem #dfcdcd;
+  }
+  28%,
+  33% {
+    color: #747373;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #aa7791;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+  font-size: 65px;
+  font-family: 'Lora', serif;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+   font-size: 65px;
+font-family: 'Lora', serif;
+}
+
+@keyframes shine {
+  0% {
+    color: #39d6b4;
+    text-shadow: none;
+  }
+  100% {
+    color: #ebe1eb;
+    text-shadow: 0 0 0.6rem #3e97a3, 0 0 1.5rem #c5c5c5,
+      -0.2rem 0.1rem 1rem #34363a, 0.2rem 0.1rem 1rem #AE8CA3,
+      0 -0.5rem 2rem #9a9c9c, 0 0.5rem 3rem #5a4e56;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width:768px){
+   .date-main{
+	position: absolute;
+	width: 300px;
+	
+    padding-right: 30px;
+	padding-top:55rem;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 60px;
+	text-align:center;
+	color: #aa9797;
+   
+} 
+.border{
+    border-style: solid;
+    border-color: rosybrown;
+}
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+  font-size: 60px;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+   font-size: 50px;
+}
+.intro {
+	display: table;
+	width: 100%;
+	padding: 50px;
+	
+	background-color: rgb(228, 218, 218);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+header .intro-text {
+	padding-top: 30px;
+	padding-bottom: 180px;
+	text-align: center;
+}
+}

@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import Navigation from './Navigation';
-import Header from './Header';
+import Navigation from '../components/Navigation';
+import Header from '../components/Header/Header';
 
 import Services from './Services';
-import Gallery from './Gallery';
-import Contact from './Contact';
+import Gallery from '../components/Gallery';
+import Contact from '../components/Contact';
 import $ from 'jquery';
-import Cards from './Cards/Cards';
-import { Timer } from './CountDown/Timer';
+import Cards from '../components/Cards/Cards';
+import { Timer } from '../components/CountDown/Timer';
 
 export class App extends Component {
   state = {

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Timer } from "./CountDown/Timer";
+import { Timer } from "../CountDown/Timer";
+import './Header.css'
 
 
 export class Header extends Component {
@@ -10,12 +11,21 @@ export class Header extends Component {
         <div className="intro">
           <div className="overlay">
             <div className="container">
+             
+           
+
               <div className="row">
+
+                 
+               </div>
                 <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                   Calebe e Sara
-                    <span></span>
-                  </h1>
+                  <div className="date-main" >
+                   <div className="sign" >
+                     <div className="border" >
+          <span className="fast-flicker" > SAVE DATE </span>
+        <span className="flicker" >  11/DEZ</span> </div>
+              </div>
+                
                   <p>
                    
                   </p>

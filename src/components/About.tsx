@@ -20,23 +20,22 @@ export class about extends Component {
               <div className="about-text">
                
                 <h2>Sobre Nosso Casamento</h2>
-                <p>Casamento de Calebe e Sara</p>
+            
                 <h3>Porque Você vai:</h3>
                 <div className="list-style">
                   <div className="col-lg-6 col-sm-6 col-xs-12">
                     <ul>
-                      <li>Porque vamos ser um</li>
-                      <li>Porque vamos ser um</li>
-                      <li>Porque vamos ser um</li>
-                      <li>Porque vamos ser um</li>
+                      <li>Porque você é muito importante para nós.
+</li>
+                      <li>Nosso dia será mais especial com você ao nosso lado. 
+</li>
+                      <li>
+Você faz parte da nossa história.</li>
+                      
                     </ul>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
                     
-                      <li>Porque vamos ser um</li>
-                      <li>Porque vamos ser um</li>
-                    </ul>
                   </div>
                 </div>
               </div>
