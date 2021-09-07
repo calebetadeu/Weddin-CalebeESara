@@ -224,7 +224,7 @@ font-family: 'Lora', serif;
 	position: absolute;
 	width: 300px;
 	
-    padding-right: 30px;
+    
 	padding-top:55rem;
 	font-style: normal;
 	font-weight: normal;
@@ -237,7 +237,7 @@ font-family: 'Lora', serif;
 .border{
     border-style: solid;
     border-color: rosybrown;
-    margin-right: 35px;
+    margin-right: 55px;
 }
 .flicker {
   animation: shine 2s forwards, blink 3s 2s infinite;
