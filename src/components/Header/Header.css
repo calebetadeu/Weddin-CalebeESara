@@ -239,6 +239,7 @@ font-family: 'Lora', serif;
     border-color: rosybrown;
     margin-right: 60px;
 }
+
 .flicker {
   animation: shine 2s forwards, blink 3s 2s infinite;
   font-size: 60px;
@@ -263,5 +264,12 @@ header .intro-text {
 	padding-top: 30px;
 	padding-bottom: 180px;
 	text-align: center;
+}
+}
+@media (max-width:600px){
+    .border{
+    border-style: solid;
+    border-color: rosybrown;
+    margin-right: 78px;
 }
 }
