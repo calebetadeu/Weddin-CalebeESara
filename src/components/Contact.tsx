@@ -14,7 +14,8 @@ export class Contact extends Component {
         <div id="contact">
        
           <div className="container">
-           
+            <div className="row">
+          
             <div className="col-md-8">
                 <img src="images/renovo.png" alt="renovo" />
               <div className="row">
@@ -51,6 +52,7 @@ export class Contact extends Component {
               </a>
             </p>
           </div>
+        </div>
         </div>
       </div>
     );

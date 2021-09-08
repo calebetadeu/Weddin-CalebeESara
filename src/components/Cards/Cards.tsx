@@ -3,10 +3,19 @@ import './Cards.css';
 import CardItem from '../CardItem';
 import { ProgressBar } from '../ProgressBar';
 
+
 function Cards() {
   return (
     <div className='cards' id="features" >
-      <h1>Lista de Presentes</h1>
+           <div className="container">
+         <div className="section-title">
+            <div className="row">
+              <div className="col-xs-8 col-md-2">  
+            <div className="ListPos" >
+            <h2>  Presentes</h2></div>
+           </div>
+           </div>
+          </div>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -26,8 +35,8 @@ function Cards() {
               text='Nos Ajude com a Lua de mel'
               label='Lua de mel'
               link="https://nubank.com.br/pagar/5nbfl/GUZLEPo5jA"
-              value={ `R$ ${2000} ` }
-            />  <ProgressBar max_value={2000} value={900} />
+              value={ `R$ ${3000} ` }
+            />  <ProgressBar max_value={3000} value={0} />
             </div>
           </ul>
           <ul className='cards__items'>
@@ -37,7 +46,10 @@ function Cards() {
           </ul>
         </div>
       </div>
-    </div>
+      </div>
+      
+      </div>
+    
   );
 }
 

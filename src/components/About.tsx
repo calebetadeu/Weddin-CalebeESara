@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-
+import "./About.css"
 
 export class about extends Component {
   render() {
     return (
       <>
-      
-        <div id="sobre">
+     
+        <div id="about">
 '    
         <div className="container">
            
@@ -19,20 +19,18 @@ export class about extends Component {
                
               <div className="about-text">
                
-                <h2>Sobre Nosso Casamento</h2>
+                <h2>Sobre Nós</h2>
             
-                <h3>Porque Você vai:</h3>
+               
                 <div className="list-style">
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
-                      <li>Porque você é muito importante para nós.
-</li>
-                      <li>Nosso dia será mais especial com você ao nosso lado. 
-</li>
-                      <li>
-Você faz parte da nossa história.</li>
+                  
+                  <div className="text" >
+                    
+                  <span> Lá do céu, Deus preparava o nosso encontro minuciosamente.  Ele cuidou de todos os detalhes, de todos os sinais, para que um dia nos encontrássemos. Em 2016 nos conhecemos na faculdade, e em 2018 iniciamos nosso relacionamento com o propósito de Deus em nossos corações.
+         Como é bom saber que existe alguém para amar e sentir o carinho com expressão desse amor, principalmente se ele é verdadeiro e alicerçado em uma promessa de fidelidade e respeito por parte dos dois que se amam e querem fazer desse amor um exemplo de relacionamento alimentado pelo carinho de Deus em nossas vidas.
+               </span>
                       
-                    </ul>
+                   
                   </div>
                   <div className="col-lg-6 col-sm-6 col-xs-12">
                     

@@ -1,6 +1,7 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  
  
 }
 span{
@@ -123,4 +124,23 @@ h1 {
   .cards__item {
     margin-bottom: 2rem;
   }
+
+}
+.listCenter{
+  padding-right: 25px;
+}
+
+.listPos{
+  padding-left: 350px;
+
+  
+}
+
+
+
+@media (max-width:768px){
+  .listPos{
+  padding-left:0;
+
+}
 }

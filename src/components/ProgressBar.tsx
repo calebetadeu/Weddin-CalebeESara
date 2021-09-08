@@ -57,7 +57,7 @@ export const ProgressBar = ({max_value,value}:ProgressBarProps) => {
         <BodyProgress>
         <br />
       
-      <Button  label="Contribuir" href="#payment" />
+      <Button  label="Contribuir" href="https://nubank.com.br/pagar/5nbfl/GUZLEPo5jA" />
       <br />
       <br />
     

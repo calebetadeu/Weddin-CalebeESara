@@ -4,7 +4,7 @@ import Header from '../components/Header/Header';
 import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
 import Cards from '../components/Cards/Cards';
-import { Timer } from '../components/CountDown/Timer';
+import About from '../components/About';
 
 export class App extends Component {
 
@@ -14,7 +14,7 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header/>
-        <Timer />
+        <About />
         <Cards />
         <Gallery />
         <Contact  />
