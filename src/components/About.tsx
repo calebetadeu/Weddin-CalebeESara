@@ -6,13 +6,13 @@ export class about extends Component {
     return (
       <>
       
-        <div id="about">
+        <div id="sobre">
 '    
         <div className="container">
            
 
           <div className="row">
-            <div className="col-xs-12 col-md-6"> <img src="img/casamento/pedido.jpeg" className="img-responsive" alt=""/>
+            <div className="col-xs-12 col-md-6"> <img src="images/foto1.jpg" className="img-responsive" alt=""/>
           
              </div>
             <div className="col-xs-12 col-md-6">

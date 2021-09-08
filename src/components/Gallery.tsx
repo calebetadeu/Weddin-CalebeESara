@@ -7,26 +7,24 @@ export class Gallery extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Galeria</h2>
-            <p>
-              Aqui vai um Pouco sobre nós, sobre nossa historia
-            </p>
+           
           </div>
           <div className="row">
             <div className="portfolio-items">
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-4 col-lg-8">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos10.jpg"
-                      title="She Said Yes"
+                      href="images/foto1.jpg"
+                     
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>She Said Yes</h4>
+                 
                       </div>
                       <img
-                        src="img/nos/nos10.jpg"
+                        src="images/foto1.jpg"
                         className="img-responsive"
                         alt="She said Yes"
                       />{" "}
@@ -39,15 +37,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos12.jpg"
-                      title="Project Title"
+                      href="images/foto3.jpg"
+                      
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Trip, Socorro-Sp</h4>
+                     
                       </div>
                       <img
-                        src="img/nos/nos12.jpg"
+                        src="images/foto3.jpg"
                         className="img-responsive"
                         alt="Volta por Socorro-sp"
                       />{" "}
@@ -60,15 +58,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos13.jpg"
-                      title="Wicklow Trip"
+                      href="images/foto4.jpg"
+                      
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Wicklow Trip</h4>
+                      
                       </div>
                       <img
-                        src="img/nos/nos13.jpg"
+                        src="images/foto4.jpg"
                         className="img-responsive"
                         alt="Wicklow Trip"
                       />{" "}
@@ -81,15 +79,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos14.jpg"
-                      title="Viagem Alemanha"
+                      href="images/foto5.jpg"
+                     
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Viagem Alemanha</h4>
+                     
                       </div>
                       <img
-                        src="img/nos/nos14.jpg"
+                        src="images/foto5.jpg"
                         className="img-responsive"
                         alt="Viagem Alemanha"
                       />{" "}
@@ -102,15 +100,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos16.jpg"
-                      title="Tops Restaurantes"
+                      href="images/foto6.jpg"
+                    
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Comemos muito?</h4>
+                     
                       </div>
                       <img
-                        src="img/nos/nos16.jpg"
+                        src="images/foto6.jpg"
                         className="img-responsive"
                         alt="Comemos muito"
                       />{" "}
@@ -123,15 +121,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos1.jpg"
-                      title="Nois dois"
+                      href="images/foto7.jpg"
+                   
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4> Nois dois</h4>
+                       
                       </div>
                       <img
-                        src="img/nos/nos1.jpg"
+                        src="images/foto7.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -144,15 +142,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos3.jpg"
-                      title="Project Title"
+                      href="images/foto8.jpg"
+               
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Travelling to Hollyhead</h4>
+                   
                       </div>
                       <img
-                        src="img/nos/nos3.jpg"
+                        src="images/foto8.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -165,15 +163,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/nos/nos5.jpg"
-                      title="Project Title"
+                      href="images/foto9.jpg"
+                   
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Paris</h4>
+                
                       </div>
                       <img
-                        src="img/nos/nos6.jpg"
+                        src="images/foto9.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -181,27 +179,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/nos/nos7.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Primeira flor</h4>
-                      </div>
-                      <img
-                        src="img/nos/nos8.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

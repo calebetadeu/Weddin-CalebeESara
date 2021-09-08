@@ -56,7 +56,8 @@ export const ProgressBar = ({max_value,value}:ProgressBarProps) => {
         <BarProgress>
         <BodyProgress>
         <br />
-      <Button  label="Contribuir" src="#payments" />
+      
+      <Button  label="Contribuir" href="#payment" />
       <br />
       <br />
     

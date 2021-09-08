@@ -185,7 +185,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Header Section */
 .intro {
 	display: table;
-	width: 100%;
+	width:100%;
 	padding: 165px;
 	background: url(../images/foto2.jpg) center center no-repeat;
 	background-color: rgb(228, 218, 218);
@@ -194,6 +194,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+@media (max-width:1500px){
+	.intro{
+		display: table;
+	width:100%;
+	padding-left:50px;
+	background: url(../images/foto2.jpg) center center no-repeat;
+	background-color: rgb(228, 218, 218);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	}
+}
+
 @media (max-width:768px){
 	.intro{
 	background: url(../images/foto5.png) center center no-repeat ;
@@ -288,12 +303,13 @@ header .intro-text {
 	padding-right: 8px;
 }
 #about img {
-	width: 520px;
+	width: 600px;
 	margin-top: 10px;
 	background:rgb(228, 218, 218);
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
+
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
