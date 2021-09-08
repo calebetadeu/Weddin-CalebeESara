@@ -11,12 +11,12 @@ export class Gallery extends Component {
           </div>
           <div className="row">
             <div className="portfolio-items">
-              <div className="col-sm-2 col-md-4 col-lg-8">
+              <div className="col-sm-2 col-md-4 col-lg-10">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="images/foto1.jpg"
+                      href="img/nos/saidyes.jpeg"
                      
                       data-lightbox-gallery="gallery1"
                     >
@@ -24,7 +24,7 @@ export class Gallery extends Component {
                  
                       </div>
                       <img
-                        src="images/foto1.jpg"
+                        src="img/nos/saidyes.jpeg"
                         className="img-responsive"
                         alt="She said Yes"
                       />{" "}
@@ -32,7 +32,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-4 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
@@ -53,12 +53,12 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-4 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="images/foto4.jpg"
+                      href="img/nos/nos4.jpg"
                       
                       data-lightbox-gallery="gallery1"
                     >
@@ -66,7 +66,7 @@ export class Gallery extends Component {
                       
                       </div>
                       <img
-                        src="images/foto4.jpg"
+                        src="img/nos/nos4.jpg"
                         className="img-responsive"
                         alt="Wicklow Trip"
                       />{" "}
@@ -74,7 +74,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-4 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
@@ -87,7 +87,7 @@ export class Gallery extends Component {
                      
                       </div>
                       <img
-                        src="images/foto5.jpg"
+                        src="images/foto1.jpg"
                         className="img-responsive"
                         alt="Viagem Alemanha"
                       />{" "}
@@ -95,7 +95,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-4 col-md-4 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
@@ -116,7 +116,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-4 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
@@ -137,12 +137,12 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-2 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="images/foto8.jpg"
+                      href="img/nos/saidyes.jpg"
                
                       data-lightbox-gallery="gallery1"
                     >
@@ -150,7 +150,7 @@ export class Gallery extends Component {
                    
                       </div>
                       <img
-                        src="images/foto8.jpg"
+                        src="img/nos/saidyes.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -158,7 +158,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="col-sm-2 col-md-4 col-lg-5">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
@@ -179,6 +179,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
+              
               
             </div>
           </div>
