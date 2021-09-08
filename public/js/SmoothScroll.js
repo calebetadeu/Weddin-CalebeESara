@@ -138,7 +138,7 @@ function init() {
  
 var que = [];
 var pending = false;
-var lastScroll = +new Date;
+var lastScroll = +new Date();
 
 /**
  * Pushes scroll actions to the scrolling queue.
@@ -149,7 +149,7 @@ function scrollArray(elem, left, top, delay) {
     directionCheck(left, top);
 
     if (options.accelerationMax != 1) {
-        var now = +new Date;
+        var now = +new Date();
         var elapsed = now - lastScroll;
         if (elapsed < options.accelerationDelta) {
             var factor = (1 + (30 / elapsed)) / 2;
@@ -159,7 +159,7 @@ function scrollArray(elem, left, top, delay) {
                 top  *= factor;
             }
         }
-        lastScroll = +new Date;
+        lastScroll = +new Date();
     }          
     
     // push a scroll command
@@ -168,7 +168,7 @@ function scrollArray(elem, left, top, delay) {
         y: top, 
         lastX: (left < 0) ? 0.99 : -0.99,
         lastY: (top  < 0) ? 0.99 : -0.99, 
-        start: +new Date
+        start: +new Date()
     });
         
     // don't act if there's a pending queue
@@ -180,7 +180,7 @@ function scrollArray(elem, left, top, delay) {
     
     var step = function (time) {
         
-        var now = +new Date;
+        var now = +new Date();
         var scrollX = 0;
         var scrollY = 0; 
     
@@ -292,7 +292,7 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, -deltaX, -deltaY);
-    event.preventDefault();
+    event.preventDefault({passive:false});
 }
 
 /**
