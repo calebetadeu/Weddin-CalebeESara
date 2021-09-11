@@ -25,7 +25,7 @@ function Cards() {
               text='Veja nossa Lista de Presente'
               value="Clique aqui para acessar"
               label='Para Casa'
-              link="https://www.querodecasamento.com.br/lista-de-casamento/calebeesara"
+              link="https://store-calebe-sara.vercel.app/"
               
             />   </div>
             
